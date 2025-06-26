@@ -1,0 +1,26 @@
+{
+  "name": "solid_mvc",
+  "version": "1.0.0",
+  "description": "Aprendendo a utilizar os principios SOLID e implementando a arquitetura de software MVC (model, view e controller), utilizando typescript, node, express e o ORM Prisma",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpabloh/SOLID_MVC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/devpabloh/SOLID_MVC/issues"
+  },
+  "homepage": "https://github.com/devpabloh/SOLID_MVC#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
