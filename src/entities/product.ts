@@ -32,4 +32,16 @@ export class Product{
     public get quantity(){
         return this.props.quantity
     }
+
+    public increaseStock(amount: number){
+        return this.props.quantity += amount
+    }
+
+    public sell(amount: number){
+        if(this.props.quantity < amount){
+            throw new Error("O saldo do produto não é suficiente para a venda")
+        }
+
+        this.props.quantity -= amount
+    }
 }
